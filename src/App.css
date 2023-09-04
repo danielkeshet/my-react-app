@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url("https://ideas.ted.com/wp-content/uploads/sites/3/2018/11/featured_art_gift_istock.jpg?resize=1550,950&opacity=0&format=png");
+  background-size: 100% ;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,9 +26,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +35,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+table {
+  background-origin: padding-box;
+  background-color: aquamarine;
 }

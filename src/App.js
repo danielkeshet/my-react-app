@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
+     <div className="App">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>
+       Send Gifts with Ease
+        </h1>
+      <h3>ONE CLICK AND YOUR GIFT IS SENT</h3>
+      <p>Your one-stop solution for gifting made simple!</p>
+      <p>Hi! Congratulations on your event! If you'd like a hassle-free way to receive payments, 
+        consider using our secure online payment platforms
+      </p>
       </header>
-    </div>
+      
+   </div>
   );
+  
 }
 
 export default App;
